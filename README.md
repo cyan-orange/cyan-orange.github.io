@@ -5,7 +5,6 @@
 以下是一个实现该需求的更新语句示例：
 
 ```sql
-sql
 SET @currentName := '';
 SET @increment := 0;
 
