@@ -29,7 +29,7 @@
 <body>
     <div id="markdown-content"></div>
     <script>
-        fetch('README.md')
+        fetch('./markdown/java/CentOS7安装Jenkinsj及相关配置.md')
             .then(response => response.text())
             .then(markdownText => {
                 const htmlContent = marked.parse(markdownText);
